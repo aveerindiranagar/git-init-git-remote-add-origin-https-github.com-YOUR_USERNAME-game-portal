@@ -1,0 +1,15 @@
+git init
+git remote add origin https://github.com/YOUR_USERNAME/game-portal.git
+/game-portal
+│── /templates              # HTML files for frontend
+│── /static                 # CSS & JS for styling/games
+│── app.py                  # Flask application
+│── requirements.txt        # Dependencies
+│── README.md               # Project documentation
+│── database.db             # SQLite database (optional)
+│── .gitignore              # Ignore unnecessary files
+pip freeze > requirements.txt
+git add .
+git commit -m "Initial commit - User & Admin Portal with Games"
+git branch -M main
+git push -u origin main
